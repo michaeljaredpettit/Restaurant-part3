@@ -1,0 +1,156 @@
+header, footer {
+	background-color:rgba(84, 73, 75, 1);
+	color: rgba(184, 196, 187, 1);
+	Height: 8%;
+	Text-align: center;
+	Padding: 10px 10px 10px 10px;
+}
+h2{
+	margin: 4px 4px 4px 12px;
+}
+h1{
+	font-size: 3em;
+}
+footer {
+	padding-bottom: 0;
+}
+
+body {
+    background-color: #fef9ff;
+    font-family: arial, helvetica, sans-serif;
+    color: #0d1f2d;
+	max-width: 1080px;
+	margin: 0 5% 0 5%;
+}
+
+
+nav{
+	border-bottom:3px solid #546a7b;
+	margin: 0px 0px 0px 0px;
+	Padding: 0px 0px 0px 0px;
+}
+nav a {
+    background-color: #5b7d87;
+    color: #fef9ff;
+    padding: 8px;
+    border: thin solid #0d1f2d;
+    text-decoration: none;
+    text-align: center;
+	display: block;
+	margin: 20px 5px 5px 5px;
+	width:100px;
+	float: left;
+}
+nav a:visited {
+	color #e4c3ad;
+}
+nav a:hover {
+    background-color: #fef9ff;
+    color: #5b7d87; 
+}
+nav a:active {
+	font-weight: bold;
+}
+
+article {
+    margin-bottom: 1%;
+}
+
+	/*	
+caption {
+	font-weight: bold;
+	font-size: 1.5em;
+	margin-bottom: 8px;
+}
+table, th, td{
+	border: 1px solid #0d1f2d;
+	border-collapse: collapse;
+	padding: 5px 10p;
+}
+table{
+	width: 90%;
+	margin: auto;
+}
+tr{
+	height: 30px;
+}
+th{
+	Background-color: #546a7b;
+	color: #f2eded;
+}
+tr:nth-child(odd) {
+	background-color: #e4c3ad; 
+}
+*/
+
+label{
+    font-size: 1.1em;
+}
+
+input[type=text] {
+    border: 2px solid #0d1f2d;
+    width: 100%;
+    padding: 6px 8px;
+    margin: 6px 0;
+    box-sizing: border-box;
+    font-size: 1.1em;
+}
+input[type=number] {
+    border: 2px solid #0d1f2d;
+    width: 25;
+    padding: 8px 8px;
+    margin: 6px 0;
+    box-sizing: border-box;
+    font-size: 1.1em;
+}
+input[type=select] {
+    border: 2px solid #0d1f2d;
+    width: 100%;
+    padding: 8px 8px;
+    margin: 6px 0;
+    box-sizing: border-box;
+    font-size: 1.1em;
+}
+
+fieldset {
+    background-color: #fef9ff;
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    box-sizing:	border-box;
+}
+
+textarea {
+    height: 150px;
+}
+
+input[type=submit] {
+    font-size: 1.1;
+    background-color: #546a7b;
+    color: #fef9ff;
+    padding: 4px 8px;
+	margin: 4px;
+}
+
+input[type=submit]:hover {
+    background-color: #f2eded;
+    color: #546a7b;
+}
+
+select, textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 12px 0;
+    box-sizing: border-box;
+    border: 2px solid #0d1f2d;
+    border-radius: 3px;
+    background-color: #fff;
+    resize: none;
+}
+
+.right-content {
+    float:left;
+}
+.clear-float {
+    clear:both;
+}

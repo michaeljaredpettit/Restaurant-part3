@@ -1,0 +1,195 @@
+<!doctype html>
+<!--
+Name: Michael Pettit
+Date Created: 11-12-2019
+Most recent revision: 0.1
+-->
+
+		
+<html lang="en">
+	<head>
+		<title>CONTACT</title>
+		<link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css" />
+
+		<style>
+			form{
+				text-align:right;
+			}
+			section{
+				text align:center;}
+			#stuff{
+				position:relative;
+				right:30%;
+			}
+			input[type=text] {
+				border: 2px solid #0d1f2d;
+				width: 300px;
+				padding: 6px 8px;
+				margin: 6px 0;
+				box-sizing: border-box;
+				font-size: 1.1em;
+				display: inline-block;
+			}
+			input[type=number] {
+				border: 2px solid #0d1f2d;
+				width: 300px;
+				padding: 6px 8px;
+				margin: 6px 0;
+				box-sizing: border-box;
+				font-size: 1.1em;
+			}
+			input[type=select] {
+				border: 2px solid #0d1f2d;
+				width: 300px;
+				padding: 6px 8px;
+				margin: 6px 0;
+				box-sizing: border-box;
+				font-size: 1.1em;
+			}
+			input[type=textarea] {
+				background-color: #fef9ff;
+				width: 300px;
+				height: 150px;
+				text-align:right;
+				padding: 6px 8px;
+				margin: 6px 0;
+				box-sizing:	border-box;
+			}
+
+			input[type=submit] {
+				background-color: rgba(84, 73, 75, 1);
+				border-radius: 5%;
+				color: rgba(184, 196, 187, 1);
+				padding: 8px 8px;
+				border: thin solid rgba(102, 63, 70, 1);
+				text-decoration: none;
+				text-align: center;
+				margin: 5px 5px 5px 5px;
+			}
+			input[type=checkbox] {
+				background-color: rgba(84, 73, 75, 1);
+				border-radius: 5%;
+				color: rgba(184, 196, 187, 1);
+				padding: 10px 10px;
+				border: thin solid rgba(102, 63, 70, 1);
+				text-decoration: none;
+				text-align: justify;
+				margin: 5px 5px 5px 5px;
+			}
+			input[type=radio] {
+				background-color: rgba(84, 73, 75, 1);
+				border-radius: 5%;
+				color: rgba(184, 196, 187, 1);
+				padding: 8px 8px;
+				border: thin solid rgba(102, 63, 70, 1);
+				text-decoration: none;
+				text-align: justify;
+				margin: 5px 5px 5px 5px;
+			}
+
+			select, input[type=textarea] {
+				width: 300px;
+				padding: 6px 8px;
+				margin: 6px 0;
+				box-sizing: border-box;
+				border: 2px solid #0d1f2d;
+				border-radius: 3px;
+				background-color: #fff;
+				text-align: justify;
+				
+			}
+			.block{
+				display: inline-block;
+			}
+			input[type=submit]:hover {
+				background-color:rgba(102, 63, 70, 1);
+				color:rgba(184, 196, 187, 1);
+				font-weight: bold;
+			}
+			input.submit {:active {
+				font-weight: bold;
+				background-color:rgba(135, 131, 209, 1);
+				color:rgba(84, 73, 75, 1);
+			}
+			.required{
+				text-style: bold;
+			}
+			div.send{
+				text-align:center;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>_totallyNotRobots</h1>
+		</header>
+		<nav>
+			<p>
+				<a href="index.html">Home</a>
+				<a href="menu.html">Menu</a>
+				<a href="contact.html">Contact Us</a>
+			</p>
+			<div class="clear-float"></div>
+		</nav>
+		<section>
+			<article>
+				<div id="stuff">
+					<form action="submit.html" method="POST">
+						
+							<span class="required"><label For="name"><b>Name:</b></Label></span>
+							
+							<input type=text id="Name" name="Name"><br/>
+						
+							<span class="block"><label class="required" For="email"><b>Email:</b></Label>
+						
+							<input type=text id="email" name="email"></span><br/>
+						
+							<span class="block"><label class="required" For="phone"><b>Phone:</b></Label>
+						
+							<input type=text id="phone" name="phone"></span><br/>
+						
+							<span class="block"><label class="required"for="purpose">Reason for inquiry:</label>
+						
+							<select id="purpose" name="purpose">
+								<option value="catering">Catering</option>
+								<option value="party">Private Party</option>
+								<option value="feedback">Feedback</option>
+								<option value="other">Other<option>
+							</select></span><br/>
+						
+							<span class="block"><label class="left.content" for="info">Additional Information:</label>
+						
+							<input type="textarea" id="info" name="info"></input></span><br/>
+							<div class="clear-float"></div>
+						
+							<span class="block"><label>Have you been to the restaurant?</label>
+						
+							<span class="block"><input type="radio" id="choice1" name="questionnaire" value="no">
+								<label for="choice1">No</label></span>
+							<span class="block"><input type="radio" id="choice2" name="questionnaire" value="yes">
+								<label for="choice2">Yes</label></span></span><br/>
+							
+							<span class="block"><label>Best day to contact you: </label>
+						
+							<span class="block"><input type="checkbox" id="monday" name="day" value="monday"><label for="monday">M</label></span>
+							<span class="block"><input type="checkbox" id="tuesday" name="day" value="tuesday"><label for="tuesday">T</label></span>
+							<span class="block"><input type="checkbox" id="wednesday" name="day" value="wednesday"><label for="wednesday">W</label></span>
+							<span class="block"><input type="checkbox" id="thursday" name="day" value="thursday"><label for="thursday">TH</label></span>
+							<span class="block"><input type="checkbox" id="friday" name="day" value="friday"><label for="friday">F</label><br/></span></span><br/>
+							<div id="send" stlye= "text-align:center;"><input  type="submit" name="Send request" value="Send request"></div>
+						</div>
+					</form>
+				</div>	
+			</article>
+		</section>
+		<div class="clear-float"></div>
+		<footer>
+		<P>
+		1224 Peachtree Lane, Atlanta, GA, 30326
+		</p>
+		<P>
+		(770) 242-9081
+		</p>
+		</footer>
+	</body>
+</html>
