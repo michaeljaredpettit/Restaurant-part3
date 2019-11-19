@@ -6,124 +6,169 @@ Most recent revision: 0.1
 -->
 <html lang="en">
 	<head>
-		<title>MENU</title>
+	
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>menu</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 		<link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css" />
-		<style>
-		th, td, table{
-			margin:1px;
-			padding:1px;
-		}
-		table{
-			margin:8px;
-			padding:8px;
-			width:100%;
+	
+	<style>
+		div.col-4, div.col-6 {
+		text-align:center;
 		}
 		</style>
 	</head>
 	<body>
+		
 		<header>
-			<h1>_totallyNotRobots</h1>
+		  <div class="jumbotron-fluid">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-12"><h1 class="display-3">_totallyNotRobots</h1></div></div>
+
+			</div>
+		</div>
 		</header>
-		<nav>
-			<p>
-				<a href="index.html">Home</a>
-				<a href="menu.html">Menu</a>
-				<a href="contact.html">Contact Us</a>
-			</p>
-			<div class="clear-float"></div>
-		</nav>
-		<div align="centered"><section>
-			<div align="centered"><article id="menu">
-				<table>
-					<tr>
-						<td><div align="center">
-						<b>Burger and Fries</B><br/>
-						An American Classic!<br/>
-						Your choice - with or without cheese<br/>
-						Served with our famous Thick cut French fries<br/>
-						$7.95
-						</div></td>
-						<td> </td>
-						<td><div align="center">
-						<b>Hot Dog and Chips</B><br/>
-						A summer Classic!<br/>
-						Your choice - white or wheat bun<br/>
-						Relish, mustard, and ketchup <br/>
-						Served with our house-made chips<br/>
-						$7.95<br/>
-						</div></td>
-						<td> </td>
-						<td><div align="center">
-						<b>Italian Sausage and Peppers</B><br/>
-						An all time Favorite!<br/>
-						Your choice - mild or spicy Cole Slaw<br/>
-						Served with garlic mashers <br/>
-						$10.95<br/>
-						</div></td>
-					</tr>
+		<div class="container-fluid">
+				<div class="col">
+					<nav class="nav nav-pills ">
+						<a class="nav-item nav-link "  href="index.html">Home</a>
+						<a class="nav-item nav-link active" href="menu.html">Menu</a>
+						<a class="nav-item nav-link" href="contact.html">Contact</a>
+					</nav>
+					<div class="col">
+						<div id="myCarousel" class="carousel slide" data-ride="carousel">
+							<ol class="carousel-indicators">
+							  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+							  <li data-target="#myCarousel" data-slide-to="1"></li>
+							  <li data-target="#myCarousel" data-slide-to="2"></li>
+							</ol>
+							<div class="carousel-inner">
+								 <div class="carousel-item active">
+									<img src="images/slide.png" class="d-block w-100" alt="...">
+								<div class="container">
+										<div class="carousel-caption text-left">
+											<h2>New location opening </h2>
+											<p>10010 Binary lane, Atlanta, GA</p>
+										 </div>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<img src="images/slide.png" class="d-block w-100" alt="...">
+									<div class="container">
+										<div class="carousel-caption">
+											<h2>See the new winter Menu</h2>
+											
+										</div>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<img src="images/slide.png" class="d-block w-100" alt="...">
+									<div class="container">
+										<div class="carousel-caption text-right">
+											<h2>SG Special Brew</h2>
+											<p>Brand new Drink of the month</p>
+										
+										</div>
+									</div>
+								</div>
+							</div>
+								<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+								  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								  <span class="sr-only">Previous</span>
+								</a>
+								<a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+								  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+								  <span class="sr-only">Next</span>
+								</a>
+						</div>
+					</div>
+				</div>
+
+		</div>
+		<section>
+			<article id="menu">
+				<div class="container">
+					<div class="row">
+						<div class="col-4">
+							<b>Burger and Fries</B><br/>
+							An American Classic!<br/>
+							Your choice - with or without cheese<br/>
+							Served with our famous Thick cut French fries<br/>
+							$7.95
+						</div>
+						<div class="col-4">
+							<b>Hot Dog and Chips</B><br/>
+							A summer Classic!<br/>
+							Your choice - white or wheat bun<br/>
+							Relish, mustard, and ketchup <br/>
+							Served with our house-made chips<br/>
+							$7.95
+						</div>
+						<div class="col-4">
+							<b>Italian Sausage and Peppers</B><br/>
+							An all time Favorite!<br/>
+							Your choice - mild or spicy Cole Slaw<br/>
+							Served with garlic mashers <br/>
+							$10.95
+						</div>
 					
-					<tr>
-						<td><div align="center">
-						<b>Tenderloin sandwich and chips</B><br/>
-						Really hits the spot!<br/>
-						Plain or Sesame Seed Bun<br/>
-						Pickle, onion, tomoato, and lettuce<br/>
-						Served with our house-made chips<br/>
-						$8.95
-						</div></td>
-						<td> </td>
-						<td><div align="center">
-						<b>House salad</B><br/>
-						On the lighter side<br/>
-						Your choice - with or without cheese<br/>
-						Iceberg lettuce, tomatoes, peppers Thousand Island or Ranch Dressing<br/>
-						Served with a dinner roll<br/>
-						$7.95<br/>
-						</div></td>
-						<td> </td>
-						<td><div align="center">
-						<b>Brisket Sandwich and Fries</B><br/>
-						A Taste of Texas!<br/>
-						Smoked Brisket on thick-cut Texas Toast<br/>
-						Cole Slaw<br/>
-						Served with our famous Thick cut French fries<br/>
-						$7.95<br/>
-						</div></td></tr>
+						<div class="col-4">
+							<b>Tenderloin sandwich and chips</B><br/>
+							Really hits the spot!<br/>
+							Plain or Sesame Seed Bun<br/>
+							Pickle, onion, tomoato, and lettuce<br/>
+							Served with our house-made chips<br/>
+							$8.95
+						</div>
+						<div class="col-4">
+							<b>House salad</B><br/>
+							On the lighter side<br/>
+							Your choice - with or without cheese<br/>
+							Iceberg lettuce, tomatoes, peppers Thousand Island or Ranch Dressing<br/>
+							Served with a dinner roll<br/>
+							$7.95
+						</div>
+						<div class="col-4">	
+							<b>Brisket Sandwich and Fries</B><br/>
+							A Taste of Texas!<br/>
+							Smoked Brisket on thick-cut Texas Toast<br/>
+							Cole Slaw<br/>
+							Served with our famous Thick cut French fries<br/>
+							$7.95</div>
+					</div>
 					
-					</table>
-			</article></div>
-			<div align="centered"><article id="beverages">
-				<table>
-					<tr>
-						<td>
-							<div align="center"><b>Root Beer</B>
-							<br/>$3.00</div></td>
-						<td>
-							<div align="center"><b>Bottled Water</B>
-							<br/>$1.25<br/></div></td>
-					</tr>
-					
-										<tr>
-						<td>
-							<div align="center"><b>Lemonade</B>
-							<br/>$1.00</div></td>
-						<td>
-							<div align="center"><b>Iced Tea</B>
-							<br/>1.25<br/></div></td>
-					</tr>
-					
-					
-					</table>
-			</article></div>
-		</section></div>
-					<div class="clear-float"></div>
-		<footer>
-		<P>
-		1224 Peachtree Lane, Atlanta, GA, 30326
-		</p>
-		<P>
-		(770) 242-9081
-		</p>
+					<div class="row">	
+						<div class="col-6">
+								<b>Root Beer</B>
+								<br/>$3.00</div>
+						<div class="col-6">
+								<b>Bottled Water</B>
+								<br/>$1.25</div>
+						<div class="col-6">	
+								<b>Lemonade</B>
+								<br/>$1.00</div>
+						<div class="col-6">	
+								<b>Iced Tea</B>
+								<br/>1.25</div>
+					</div>
+						
+				</div>
+			</article>
+		</section>
+
+	<footer class="footer">
+			<div  class="container" align="center" >
+				<span class="text-muted">
+				1224 Peachtree Lane, Atlanta, GA, 30326<br/>
+				(770) 242-9081
+				</span>
+			</div>
 		</footer>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+		
 	</body>
 </html>

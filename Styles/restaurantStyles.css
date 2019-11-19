@@ -1,35 +1,58 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 96px; /* Margin bottom by footer height */
+}
+.carousel-inner{
+	background-color:rgba(84, 73, 75, 1);
+	Border-radius:1%;
+	font-family: 'Roboto', sans-serif;
+	color: rgba(184, 196, 187, 1);
 
+	}
+.footer {
+	background-color:rgba(84, 73, 75, 1);
+	font-family: 'Roboto', sans-serif;
+	color: rgba(184, 196, 187, 1);
+	Text-align: center;
+	position: absolute;
+	Border-radius:1%;
+	bottom: 0;
+	width: 100%;
+	height: 96px; /* Set the fixed height of the footer here */
+	line-height: 48px; /* Vertically center the text there */
+ 
+}
 body {
     background-color: rgba(184, 196, 187, 1);
     font-family: 'Roboto', sans-serif;
     color: rgba(84, 73, 75, 1);
 	border-radius: 5%
 }
-
-header, footer {
+div.jumbotron-fluid {
+	padding: 0;
+	margin-bottom: 0;
 	background-color:rgba(84, 73, 75, 1);
 	font-family: 'Roboto', sans-serif;
 	color: rgba(184, 196, 187, 1);
-	Height: 8%;
 	Text-align: center;
-	Padding: 10px 10px 10px 10px;
-	Border-radius:1%;
 }
-footer {
-	postion:0% 50%;
+div.jumbotron-fluid p {
+	font-size:2em;
+	text-transform: bold;
+	color:rgba(184, 196, 187, 1);
+	}
+
 }
-h2{
-	margin: 4px 4px 4px 12px;
-}
-h1{
-	font-size: 3em;
-}
+
 nav{
 	border-bottom:3px solid rgba(102, 63, 70, 1);
-	margin: 0px 0px 0px 0px;
-	Padding: 5x 0px 0px 0px;
+	background-color:rgba(84, 73, 75, 1);
+
 }
 nav a {
     background-color: rgba(84, 73, 75, 1);
@@ -40,7 +63,7 @@ nav a {
     text-decoration: none;
     text-align: center;
 	display: block;
-	margin: 5px 5px 15px 5px;
+	margin: 5px 5px 5px 5px;
 	width: 90px;
 	float: left;
 }
@@ -52,10 +75,25 @@ nav a:hover {
     color:rgba(184, 196, 187, 1);
 	font-weight: bold;
 }
-nav a:active {
+.nav-pills .nav-link {
 	font-weight: bold;
 	background-color:rgba(135, 131, 209, 1);
 	color:rgba(84, 73, 75, 1);
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+
+background-color: rgba(84, 73, 75, 1);
+    border-radius: 5%;
+	color: rgba(184, 196, 187, 1);
+    padding: 8px;
+    border: thin solid rgba(102, 63, 70, 1);
+    text-decoration: none;
+    text-align: center;
+	display: block;
+	margin: 5px 5px 5px 5px;
+	width: 90px;
+	float: left;
+
 }
 .right-content {
     float:left;
